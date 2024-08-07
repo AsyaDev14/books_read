@@ -1,0 +1,139 @@
+.recommend_wrapper {
+  background-color: #1f1f1f;
+  margin-top: 10px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.recommend_p {
+  font-size: 12px;
+  margin-bottom: 8px;
+  padding-left: 18px;
+}
+
+.recommend_input {
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #262626;
+  outline: none;
+  color: var(--white);
+
+  width: 100%;
+  box-sizing: border-box;
+  &:first-child {
+    margin-bottom: 8px;
+  }
+}
+
+.recommend_submit {
+  margin: 20px 0;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #686868;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.recommend_box {
+  padding: 20px;
+  background-color: var(--inputs);
+  border-radius: 12px;
+}
+
+.recommend_workout {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.recommend_subtitle {
+  width: 200px;
+}
+
+.recommend_span {
+  color: var(--main-grey);
+}
+
+.recommend_h {
+  margin-bottom: 20px;
+}
+.recommend_wrap_button {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.recommend_link {
+  color: var(--main-grey);
+}
+
+.recommended_book_wrap {
+  margin-top: 10px;
+  padding: 40px 20px;
+  background-color: var(--inputs);
+  border-radius: 12px;
+}
+
+.rec_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.recommend_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border-radius: 50px;
+  border: 1px solid var(--secondary-grey);
+  fill: var(--secondary-grey);
+}
+
+.recomended_book_box {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rec_button_wraper {
+  display: flex;
+  gap: 8px;
+}
+
+.book_image {
+  border-radius: 8px;
+  padding-bottom: 8px;
+}
+
+.book_title {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book_author {
+  color: var(--main-grey);
+  font-size: 10px;
+}
+
+.book_list {
+  padding-top: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+}
+
+.book_item {
+  width: 137px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: "Gilroy Bold";
+}

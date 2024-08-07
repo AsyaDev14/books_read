@@ -1,8 +1,7 @@
 #root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Gilroy, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: dark;
   color: #f9f9f9;
 
@@ -12,11 +11,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --main-grey: #686868;
+  --dark-grey: #1f1f1f;
+  --white: #f9f9f9;
+  --inputs: #262626;
+  --secondary-grey: rgba(249, 249, 249, 0.2);
+}
+
 body {
   font-size: 14px;
   font-weight: 400;
   background-color: #141414;
-
+  font-family: Gilroy;
   margin: 0;
   padding: 0;
 }
@@ -34,7 +41,7 @@ hr {
 a {
   color: inherit;
   font-weight: 500;
-  text-decoration: inherit;
+  /* text-decoration: inherit; */
 }
 
 ol,

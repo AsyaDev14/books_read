@@ -1,0 +1,36 @@
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  background-color: var(--dark-grey);
+}
+
+@media (max-width: 768px) {
+  .header_wrap {
+    display: none;
+  }
+}
+
+.header_profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #262626;
+  border: 1px solid var(--main-grey);
+}
+
+.header_buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_burger {
+  background-color: transparent;
+  border: none;
+  width: 28px;
+  height: 28px;
+}

@@ -1,15 +1,14 @@
-import { Routes, Route } from "react-router-dom";
-import { Register } from "../pages/register/Register";
-import Login from "../pages/login/Login";
+import { getLocalStorageToken } from "../js/Api";
+import { MainRouter } from "../routes/MainRouter";
+import { Header } from "./header/Header";
 
 function App() {
+  const token = getLocalStorageToken();
   return (
-    <div>
-      <Routes>
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </div>
+    <>
+      <Header />
+      <MainRouter />
+    </>
   );
 }
 
